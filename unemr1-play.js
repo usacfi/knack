@@ -1011,6 +1011,8 @@ const UnEMR = (data) => {
 
     $panel.parent().children('.unemr-dropdown-trigger').attr('data-collapse', 'false');
   }
+
+  return {loadListeners};
 }
 
 
